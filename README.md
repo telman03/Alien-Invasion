@@ -1,31 +1,41 @@
-# Alien_Invasion![Uploading 16-47-29 (online-video-cutter.com).gif
-
-
-
-About pygame
-============
-
-     Pygame is a cross-platfrom library designed to make it easy to
-     write multimedia software, such as games, in Python. Pygame
-     requires the Python language and SDL multimedia library. It can
-     also make use of several other popular libraries.
-
-     http://www.pygame.org
+# Alien_Invasion
 
 
 Installation
-============
+------------
 
-     You should definitely begin by installing a binary package for your
-     system. The binary packages usually come with or give the
-     information needed for dependencies. Choose an appropriate
-     installer for your system and version of python from the pygame
-     downloads page. http://www.pygame.org/download.shtml
 
-     Installing from source is fairly automated. The most work will
-     involve compiling and installing all the pygame dependencies. Once
-     that is done run the "setup.py" script which will attempt to
-     auto-configure, build, and install pygame.
+   pip install pygame
 
-     Much more information about installing and compiling is available
-     in the install.html file.
+
+Help
+----
+
+If you are just getting started with pygame, you should be able to
+get started fairly quickly.  Pygame comes with many tutorials and
+introductions.  There is also full reference documentation for the
+entire library. Browse the documentation on the `docs page`_.
+
+The online documentation stays up to date with the development version
+of pygame on github.  This may be a bit newer than the version of pygame
+you are using. To upgrade to the latest full release, run 
+``pip install pygame --upgrade`` in your terminal.
+
+Best of all, the examples directory has many playable small programs
+which can get you started playing with the code right away.
+
+
+Building From Source
+--------------------
+
+If you want to use features that are currently in development,
+or you want to contribute to pygame, you will need to build pygame
+locally from its source code, rather than pip installing it.
+
+Installing from source is fairly automated. The most work will
+involve compiling and installing all the pygame dependencies.  Once
+that is done, run the ``setup.py`` script which will attempt to
+auto-configure, build, and install pygame.
+
+Much more information about installing and compiling is available
+on the `Compilation wiki page`_.
